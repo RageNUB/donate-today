@@ -3,7 +3,7 @@
   font-family: "Inter";
 }
 header {
-  background-image: url("/images/donation4.jpg");
+  background-image: url("../images/donation4.jpg");
   background-repeat: no-repeat;
   /* background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%); */
   background-position: center;
@@ -41,8 +41,6 @@ section {
 /* container styles */
 .donate {
   text-align: center;
-}
-.container {
 }
 .container-title {
   font-weight: 700;
