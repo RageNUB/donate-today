@@ -138,6 +138,9 @@ hr {
 .image {
   margin-bottom: 100px;
 }
+.image > img {
+  border-radius: 5px;
+}
 
 /* form styles */
 .update-blog {
@@ -148,8 +151,11 @@ hr {
   background: #fff4d6;
 }
 .form-data {
-  padding: 76px 188px;
-  text-align: center;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .form-data input {
   background: #d9d9d9;
@@ -188,4 +194,11 @@ hr {
 .be-humble p {
   color: #D9DBE1;
   font-size: 14px;
+}
+/* Responsive Styles */
+@media screen and (max-width: 576px) {
+  
+}
+@media screen and (min-width: 576px) and (max-width:992px) {
+  
 }
